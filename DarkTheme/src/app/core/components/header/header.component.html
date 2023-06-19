@@ -1,11 +1,16 @@
 <header>
   <img src="./assets/angular.svg" alt="Logo da empresa Angular" />
   <ul>
-    <li>Home</li>
-    <li>Sobre</li>
+    <li>
+      <a [routerLink]="['']">Home</a>
+    </li>
+    <li><a [routerLink]="['sobre']">Sobre</a></li>
     <li>
       <button type="button" (click)="Batman()">
-        <img src="./assets/moon.svg" alt="Click e troque o tema para Dark" />
+        <img
+          src="./assets/{{ icon }}.svg"
+          alt="Click e troque {{ textTheme }}"
+        />
       </button>
     </li>
   </ul>
