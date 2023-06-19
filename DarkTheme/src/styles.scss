@@ -50,4 +50,15 @@ body {
   p {
     color: var(--text-body);
   }
+
+  h2 {
+    font-weight: 400;
+    font-size: 25px;
+    margin: 50px 0 10px;
+  }
+
+  h2,
+  p {
+    color: var(--text-body);
+  }
 }
